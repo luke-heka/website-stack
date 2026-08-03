@@ -6,7 +6,7 @@ Copy everything inside the code block below into Claude Code, in an empty folder
 You are setting up and shipping a production-grade, $10k-quality website for my business, start to finish, autonomously. Work in this order. Do not stop to ask me anything except the three questions in Step 2.
 
 STEP 1 - INSTALL THE STACK
-First, read https://github.com/lukeselr/website-stack and run its setup.sh. That installs the skills below into ~/.claude/skills and clones the framer-motion skill from that repo. If setup.sh is missing or any install fails, install each skill yourself: find its canonical GitHub source (the README in that repo names every source and licence) and clone it into ~/.claude/skills/<skill-name>, or, if you genuinely can't, apply that skill's methodology directly. Never abort because an install failed.
+First, read https://github.com/luke-heka/website-stack and run its setup.sh. That installs the skills below into ~/.claude/skills and clones the framer-motion skill from that repo. If setup.sh is missing or any install fails, install each skill yourself: find its canonical GitHub source (the README in that repo names every source and licence) and clone it into ~/.claude/skills/<skill-name>, or, if you genuinely can't, apply that skill's methodology directly. Never abort because an install failed.
   1. ui-ux-pro-max - design-direction database: styles, colour palettes, font pairings, UX rules
   2. frontend-design + impeccable + emil-design-eng - aesthetic direction, polish, and the "kill the AI look" pass
   3. shadcn-ui (skill) + the 21st.dev Magic MCP - real, polished components: hero, pricing, nav, footer
