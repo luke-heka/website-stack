@@ -11,13 +11,13 @@ echo "Installing the website stack into ${SKILLS_DIR}"
 echo
 
 # --- 1. framer-motion: shipped in THIS repo, fixed source -------------------
-REPO_RAW_BASE="https://raw.githubusercontent.com/lukeselr/website-stack/main"
+REPO_RAW_BASE="https://raw.githubusercontent.com/luke-heka/website-stack/main"
 if [ ! -d "${SKILLS_DIR}/framer-motion" ]; then
   mkdir -p "${SKILLS_DIR}/framer-motion"
   if curl -fsSL "${REPO_RAW_BASE}/skills/framer-motion/SKILL.md" -o "${SKILLS_DIR}/framer-motion/SKILL.md"; then
     echo "  ok   framer-motion"
   else
-    echo "  skip framer-motion (couldn't fetch; clone https://github.com/lukeselr/website-stack and copy skills/framer-motion/)"
+    echo "  skip framer-motion (couldn't fetch; clone https://github.com/luke-heka/website-stack and copy skills/framer-motion/)"
   fi
 else
   echo "  ok   framer-motion (already present)"
